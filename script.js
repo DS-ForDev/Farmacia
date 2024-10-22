@@ -6,7 +6,7 @@ let pacientesMedicamento1 = 0;
 let pacientesMedicamento2 = 0;
 let auxMedic1 = 0;
 let auxMedic2 = 0;
-// Actualizar existencias de medicamentos
+// Actualizar existencias de medicamento
 document.getElementById('actualizarExistencias').addEventListener('click', () => {
 
     auxMedic1 = parseInt(document.getElementById('medicamento1').value);            // Var aux para paso de datos 
